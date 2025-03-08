@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://i.pinimg.com/736x/ac/85/27/ac8527647514b41586586621e1180558.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #fff;
+}
+.input-group {
+    margin: 20px 0;
+}
+.result {
+    margin-top: 20px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+}
+button {
+    padding: 10px 20px;
+    background: #4e8acb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
